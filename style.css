@@ -3,19 +3,21 @@
     padding: 0px;
 }
 body{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 100px;  
+}
+container{
+    margin: 0 auto;
 }
 h1, h3, p img{
     color:#445161;
 }
 h1{
-    text-align-last: center;
+    margin-left: 500px
 }
 .head{
     height: 222px;
     min-width: 1000px;
-    max-width: 1200px;
+   
     background-color:#445162;
 }
 .header{
@@ -37,6 +39,7 @@ h1{
 .logo-text{
     color: white;
     text-align-last: left;
+    margin-left: 30px
 }
 .textinfo{
     color: white;
@@ -151,6 +154,7 @@ list-comint{
 .price-text{
     text-align-last: center;
     margin-top: 10px;
+    margin-left: 0px;
 }
 .description-text{
     color: white;
@@ -165,4 +169,19 @@ list-comint{
 }
 .buy:hover{
     background-color: #212121;
+}
+.comint{
+    margin-top: 125px;
+}
+.list-comint{
+    max-height: 570px;
+    text-decoration: 
+}
+.left-comint{
+    flex-direction: column;
+    min-width: 570px;
+    float: left;
+}
+.right-comint{
+    flex-direction: column; 
 }
