@@ -77,6 +77,9 @@ h1{
     min-height: 380px;
     background-color: #f5f5f5;
 }
+.text-options{
+   font-size: 5px;
+}
 .logo-options{
     color: #828b96;
     padding-top: 20px;
@@ -87,9 +90,11 @@ li{
    margin: 20px 0px 20px 25px; 
 }
 .ul-options-left{
-    float: left
+    float: left;
+    list-style-image: url(items/plus%20icon.png);
 }
-.ul-options-right{   
+.ul-options-right{
+    list-style-image: url(items/plus%20icon.png);
 }
 .left-items{
     flex-direction: column;
@@ -181,7 +186,150 @@ list-comint{
     flex-direction: column;
     min-width: 570px;
     float: left;
+    list-style-image: url(items/userpic.png);
 }
 .right-comint{
     flex-direction: column; 
+    list-style-image: url(items/userpic.png);
+}
+textarea {
+  resize: none;
+}
+footer{
+    background-color:  #445162;
+    margin-top: 60px;
+    min-height: 400px
+}
+.logo-contacts{
+    color: white;
+    padding-top: 50px;
+}
+form{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.name{
+    position: absolute;
+     min-width: 325px;
+    border-radius: 5px;
+    height: 25px;
+}
+.email{
+    float: left;
+    position: absolute;
+    margin-top: 40px;
+     min-width: 325px;
+    border-radius: 5px;
+    height: 25px;
+}
+.area{
+    margin-top:  80px;
+    min-width: 325px;
+}
+.send{
+    width: 60px;
+    height: 40px;
+    border-radius: 3px;
+}
+.send:hover{
+    background-color: #212121;
+    border-color: #212121;
+}
+section{
+    float: left;
+}
+.contacts {
+  width: 300px;
+  ;
+  margin-top: 60px;
+  margin-left: 50%;
+    position: absolute;
+}
+
+.contacts-item {
+  display: block;
+  margin: 0 0 5px 0;
+  padding: 0 0 0 15px;
+  box-sizing: border-box;
+  position: relative;
+}
+.item1{
+    list-style-image: url(items/skype%20icon.png);
+    color: white;
+}
+.item2{
+    list-style-image: url(items/icq%20icon.png);
+    color: white;
+}
+.item3{
+    list-style-image: url(items/email%20icon.png);
+    color: white;
+}
+.item4{
+    list-style-image: url(items/phone%20icon.png);
+    color: white;
+}
+
+.contacts-item::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.social {
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+}
+.social-item {
+  display: block;
+  width: 60px;
+  height: 60px;
+  /* border: 1px solid black; */
+  background-image: url('https://sun9-19.userapi.com/c840633/v840633496/6abd2/aHsgqxaaD4g.jpg');
+}
+
+.social-item:nth-child(1) {
+  background-position: 0 0;
+}
+
+.social-item:nth-child(2) {
+  background-position: -59px 0;
+}
+
+.social-item:nth-child(3) {
+  background-position: -118px 0;
+}
+
+.social-item:nth-child(4) {
+  background-position: -177px 0;
+}
+
+
+/* ================================= */
+
+.social-item:nth-child(1):hover {
+  background-position: 0 -59px;
+}
+
+.social-item:nth-child(2):hover {
+  background-position: -59px -59px;
+}
+
+.social-item:nth-child(3):hover {
+  background-position: -118px -59px;
+}
+
+.social-item:nth-child(4):hover {
+  background-position: -177px -59px;
 }
